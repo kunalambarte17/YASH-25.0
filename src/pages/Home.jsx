@@ -20,23 +20,6 @@ const Home = () => {
           </a>
         </div>
       </div>
-        <div className="stats-container">
-          <div className="stats-div">
-            <div>
-              <h2 className="stat-head">27K+</h2>
-              <p>Artists</p>
-            </div>
-            <div>
-              <h2 className="stat-head">876K+</h2>
-              <p>Artworks</p>
-            </div>
-            <div>
-              <h2 className="stat-head">20K+</h2>
-              <p>Auction</p>
-            </div>
-            
-          </div>
-        </div>
     </div>
   );
 };
