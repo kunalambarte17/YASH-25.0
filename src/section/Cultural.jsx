@@ -2,7 +2,7 @@
 
 const Cultural = () => {
   return (
-    <div>Cultural Page</div>
+    <div>Cultural Page in progress</div>
   )
 }
 
