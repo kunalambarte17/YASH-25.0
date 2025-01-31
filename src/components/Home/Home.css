@@ -1,0 +1,71 @@
+.home {
+  background-image: url("../../assets/HomeBg.jpeg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.main-div {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  margin-top: 10rem;
+  margin-left: 12rem;
+}
+.heading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  text-align: center;
+
+}
+.enigma-p {
+  font-size: 3rem;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 0.5rem;
+}
+.enigma-heading {
+  font-size: 10rem;
+  font-weight: 600;
+  color: rgba(80, 213, 231, 0.855);
+  letter-spacing: 30px;
+  line-height: 10rem;
+}
+.sub-heading {
+  /* margin-top: ; */
+  font-size: 2rem;
+  color: white;
+}
+.sub-head-anchor {
+  margin-top: 0.4rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+}
+.sub-head-anchor:hover {
+  text-decoration: underline;
+}
+.stats-container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 1.5rem 0; /* Equivalent to py-6 */
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.stats-div {
+  max-width: 1280px; /* Equivalent to Tailwind's default container size */
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-around; /* Equivalent to justify-around */
+  align-items: center; /* Equivalent to items-center */
+  text-align: center;
+  color: white; /* Equivalent to text-white */
+}
+.stat-head{
+    font-size: 1.5rem; /* Equivalent to text-2xl */
+  font-weight: 700; 
+}
