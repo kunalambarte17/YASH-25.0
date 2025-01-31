@@ -1,5 +1,6 @@
 import "./Home.css";
 import Navbar from '../Navbar/Navbar'
+import logo from "../../assets/logo.png";
 
 const Home = () => {
   return (
@@ -8,8 +9,7 @@ const Home = () => {
       <div className="main-div">
         <div className="heading-conatiner">
             <p className="enigma-p">CodeWare Presents</p>
-            <h1 className="enigma-heading">ENIGMA
-          </h1>
+            <img src={logo} alt="" height={100} width={700} />
           <p className="sub-heading">Code. Create. Conquer. 🚀</p>
           <a
             href="#"
