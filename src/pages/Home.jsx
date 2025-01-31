@@ -1,6 +1,6 @@
 import "./Home.css";
-import Navbar from '../Navbar/Navbar'
-import logo from "../../assets/logo.png";
+import Navbar from '../components/Navbar/Navbar'
+import logo from "../assets/logo.png";
 
 const Home = () => {
   return (
@@ -8,7 +8,7 @@ const Home = () => {
         <Navbar/>
       <div className="main-div">
         <div className="heading-conatiner">
-            <p className="enigma-p">CodeWare Presents</p>
+            <p className="enigma-p">YCCE Presents</p>
             <img src={logo} alt="" height={100} width={700} />
           <p className="sub-heading">Code. Create. Conquer. 🚀</p>
           <a
