@@ -1,9 +1,9 @@
 import "./Navbar.css";
+import {Link } from "react-router-dom";
 import logo from "../../assets/logo.png";
 import menu_open from "../../assets/menu_open.svg";
 import menu_close from "../../assets/menu_close.svg";
 import { useRef } from "react";
-import AnchorLink from "react-anchor-link-smooth-scroll";
 // import BuyMeCoffee from "../../assets/react.svg";
 
 const Navbar = () => {
@@ -30,39 +30,39 @@ const Navbar = () => {
           className="nav-mob-close"
         />
         <li className="li-text">
-          <AnchorLink className="anchor-link" href="#home">
+          <Link className="anchor-link" to={"/"}>
             <p>
               Home
             </p>
-          </AnchorLink>
+          </Link>
         </li>
         <li className= "li-text">
-          <AnchorLink className="anchor-link" offset={50} href="#about">
+          <Link className="anchor-link" to={"/cultural"}>
             <p>
-              Theme
+              Cultural
             </p>
-          </AnchorLink>
+          </Link>
         </li>
         <li className= "li-text">
-          <AnchorLink className="anchor-link" offset={50} href="#skills">
+          <Link className="anchor-link" to={"/technical"}>
             <p>
-              Prize
+              Technical
             </p>
-          </AnchorLink>
+          </Link>
         </li>
         <li className= "li-text">
-          <AnchorLink className="anchor-link" offset={50} href="#projects">
+          <Link className="anchor-link" to={"/sports"}>
             <p>
-              Rules
+              Sports
             </p>
-          </AnchorLink>
+          </Link>
         </li>
         <li className= "li-text">
-          <AnchorLink className="anchor-link" offset={50} href="#contact">
+          <Link className="anchor-link"  to={"/contact"}>
             <p>
               Contact
             </p>
-          </AnchorLink>
+          </Link>
         </li>
       </ul>
       <div className="nav-connect ">

@@ -1,18 +1,32 @@
-
-import Home from "./components/Home/Home";
-import Cultural from "./section/Cultural";
-import Sports from "./section/Sports";
-import Tehnical from "./section/Tehnical";
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import Home from "./pages/Home.jsx";
+import Cultural from "./pages/Cultural.jsx";
+import Sports from "./pages/Sports.jsx";
+import Tehnical from "./pages/Tehnical.jsx";
 
 function App() {
-
+  
+  const router = createBrowserRouter([
+    {
+      path:'/',
+      element: <Home/>
+    },
+    {
+      path:'/cultural',
+      element: <Cultural/>
+    },
+    {
+      path:'/technical',
+      element: <Tehnical/>
+    },
+    {
+      path:'/sports',
+      element: <Sports/>
+    }
+  ])
   return (
     <>
-      <Home/>
-      <Cultural/>
-      <Tehnical/>
-      <Sports/>
-        
+      <RouterProvider router={router}></RouterProvider>
     </>
   )
 }
