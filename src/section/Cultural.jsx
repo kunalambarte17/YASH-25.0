@@ -2,7 +2,7 @@
 
 const Cultural = () => {
   return (
-    <div>Cultural</div>
+    <div>Cultural Page</div>
   )
 }
 
