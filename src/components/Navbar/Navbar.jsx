@@ -1,6 +1,6 @@
 import "./Navbar.css";
 import {Link } from "react-router-dom";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/40years.png";
 import menu_open from "../../assets/menu_open.svg";
 import menu_close from "../../assets/menu_close.svg";
 import { useRef } from "react";
