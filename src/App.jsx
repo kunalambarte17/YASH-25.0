@@ -2,7 +2,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from "./pages/Home.jsx";
 import Cultural from "./pages/Cultural.jsx";
 import Sports from "./pages/Sports.jsx";
-import Tehnical from "./pages/Tehnical.jsx";
+import Technical from './pages/Technical.jsx';
+
 
 function App() {
   
@@ -17,7 +18,7 @@ function App() {
     },
     {
       path:'/technical',
-      element: <Tehnical/>
+      element: <Technical/>
     },
     {
       path:'/sports',
