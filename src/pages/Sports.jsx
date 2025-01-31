@@ -1,6 +1,6 @@
 const Sports = () => {
   return (
-    <div>Sports</div>
+    <div>Sports done</div>
   )
 }
 
