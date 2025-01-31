@@ -2,7 +2,7 @@
 
 const Tehnical = () => {
   return (
-    <div>Tehnical</div>
+    <div>Tehnical hello i am kunal</div>
   )
 }
 
