@@ -1,7 +1,7 @@
 import React from 'react'
 import './SportsMain.css'
 import Navbar from '../Navbar/Navbar'
-import SportsCard from '../SportsCard/SportsCard'
+import SportSlider from '../SportsSlider/SportSlider'
 
 function SportsMain() {
   return (
@@ -10,10 +10,8 @@ function SportsMain() {
       <div className='mainbox1'>
         <div className="parallax1 bg-image11">
           <Navbar/>
+          <SportSlider/>
         </div>
-      </div>
-      <div className="parallax1 bg-image21">
-        <SportsCard/>
       </div>
     </div>
     </div>

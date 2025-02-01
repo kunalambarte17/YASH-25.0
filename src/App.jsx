@@ -3,6 +3,8 @@ import Home from "./pages/Home.jsx";
 import Cultural from "./pages/Cultural.jsx";
 import Sports from "./pages/Sports.jsx";
 import Technical from './pages/Technical.jsx';
+import TechInfo from './pages/TechInfo.jsx';
+import SportsInfo from './pages/SportsInfo.jsx';
 
 
 function App() {
@@ -23,6 +25,14 @@ function App() {
     {
       path:'/sports',
       element: <Sports/>
+    },
+    {
+      path:'/techinfo',
+      element: <TechInfo/>
+    },
+    {
+      path:'/sportinfo',
+      element: <SportsInfo/>
     }
   ])
   return (
