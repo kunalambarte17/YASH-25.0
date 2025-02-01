@@ -5,14 +5,16 @@
     padding-left: 3rem;
     padding-right: 3rem;
     width: 100%;
-    /* position: top; */
-    /* top: 5px; */
-    /* z-index: 1000; */
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+    /* background-color: #00000086; */
 }
 
 .logo {
     height: 100px;
     background-blend-mode: transparent;
+    margin-top: 10px;
 
 }
 .li-text{
@@ -37,18 +39,9 @@
 
 .nav-connect {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border: 1px solid #65717c;
-    padding: 10px 40px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    /* border-radius: 50px; */
-    /* background: linear-gradient(to right, #65717c 0.36%, #898d92 102.06%); */
-    font-size: 20px;
-    cursor: pointer;
-    transition: 0.5s;
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
 }
 
 /* .nav-connect:hover {

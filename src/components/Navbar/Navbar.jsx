@@ -66,16 +66,7 @@ const Navbar = () => {
         </li>
       </ul>
       <div className="nav-connect ">
-        <a
-          href="#"
-          className="flex justify-center items-center"
-        >
-          {/* <img src={BuyMeCoffee} alt="" className="buy-me-img" /> */}
-          <i className="fa-solid fa-globe text-white"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <span className="flex justify-center items-center   buy-me-coffee">
-            Join Us
-          </span>
-        </a>
+        <img src={logo} alt="" />
       </div>
     </div>
   );
