@@ -1,80 +1,64 @@
 import "./cultural.css";
-import { Navigation, A11y, EffectCoverflow } from 'swiper/modules';  // Remove Pagination and Scrollbar imports
+import { Navigation, A11y, EffectCoverflow } from 'swiper/modules';  
 import Navbar from "../components/Navbar/Navbar";
 import { Swiper, SwiperSlide } from 'swiper/react';
-import des1 from "../assets/cultural/des1.png";
-import des2 from "../assets/cultural/des2.png";
-import des3 from "../assets/cultural/des3.png";
-
+import { Link } from "react-router-dom";
+import culturalEvents from "../pages/Details.js";  
 import 'swiper/css';
 import 'swiper/css/navigation';
-import 'swiper/css/effect-coverflow';  // Import the effect for Swiper
+import 'swiper/css/effect-coverflow';  
 
 const Cultural = () => {
   return (
-    <div className="cul  ">
+    <div className="cul">
       <Navbar />
-      <div className=" w-[100%] flex flex-col items-center text-white justify-center py-6 px-4">
+      <div className="w-[100%] flex flex-col items-center text-white justify-center py-6 px-4">
         {/* Title */}
         <h1 className="lg:text-7xl text-4xl font-extrabold text-center mb-8">
           Cultural Events
         </h1>
 
         {/* Swiper slider */}
-        <div className="w-full my-8 h-full mx-auto px-10 ">
+        <div className="w-full my-8 h-full mx-auto px-10">
           <Swiper
-            spaceBetween={20}
-            slidesPerView={3}  // Default: show 3 slides for screens > 1000px
+            slidesPerView={3}
+            spaceBetween={-200}
             centeredSlides={true}
             loop={true}
+            loopAdditionalSlides={0}
             navigation
             effect="coverflow"
             coverflowEffect={{
-              rotate: 20,
+              rotate: 0,
               stretch: 0,
-              depth: 200,
-              modifier: 1,
+              depth: 500,
+              modifier: 2,
               slideShadows: true,
             }}
             breakpoints={{
-              1000: { slidesPerView: 1 }, // Show 1 slide for screens <= 1000px (mobile view)
-              1024: { slidesPerView: 3 }, // Show 3 slides for screens > 1000px (larger screens)
+              0: { slidesPerView: 1 },
+              1000: { slidesPerView: 2 },
+              1024: { slidesPerView: 3 },
             }}
             modules={[Navigation, A11y, EffectCoverflow]}
             className="swiper swiper_container h-full"
             style={{ overflow: 'hidden' }}
           >
-            {/* Left Side Slide */}
-            <SwiperSlide className="swiper-slide-left">
-              <img className="h-80 w-full border rounded-xl" src={des1} alt="Slide 1" />
-            </SwiperSlide>
-
-            {/* Center Slide (Active) */}
-            <SwiperSlide className="swiper-slide-center">
-              <img className="h-80 w-full border rounded-xl" src={des2} alt="Slide 2" />
-            </SwiperSlide>
-
-            {/* Right Side Slide */}
-            <SwiperSlide className="swiper-slide-right">
-              <img className="h-80 w-full border rounded-xl" src={des3} alt="Slide 3" />
-            </SwiperSlide>
-
-            {/* Additional slides, following the same pattern */}
-            <SwiperSlide className="swiper-slide-left">
-              <img className="h-80 w-full border rounded-xl" src={des1} alt="Slide 4" />
-            </SwiperSlide>
-
-            <SwiperSlide className="swiper-slide-center">
-              <img className="h-80 w-full border rounded-xl" src={des2} alt="Slide 5" />
-            </SwiperSlide>
-
-            <SwiperSlide className="swiper-slide-right">
-              <img className="h-80 w-full border rounded-xl" src={des3} alt="Slide 6" />
-            </SwiperSlide>
+            {culturalEvents.map((event, index) => (
+              <SwiperSlide key={event.id} className={`swiper-slide-${index % 3 === 0 ? 'left' : index % 3 === 1 ? 'center' : 'right'}`}>
+                <img className="lg:h-96 md:h-72 h-44 w-full border rounded-xl" src={event.image} alt={`Slide ${index + 1}`} />
+              </SwiperSlide>
+            ))}
           </Swiper>
+        </div>
 
-
-
+        {/* View All Button */}
+        <div>
+          <Link className="anchor-link" to={"/culturalview"}>
+            <button className="p-4 px-7 text-black rounded-xl font-bold text-2xl bg-white">
+              VIEW ALL
+            </button>
+          </Link>     
         </div>
       </div>
     </div>

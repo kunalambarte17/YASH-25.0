@@ -3,6 +3,8 @@ import Home from "./pages/Home.jsx";
 import Cultural from "./pages/Cultural.jsx";
 import Sports from "./pages/Sports.jsx";
 import Technical from './pages/Technical.jsx';
+import Culturalview from './pages/Culturalview.jsx';
+import Culturalsingleevent from './pages/Culturalsingleevent.jsx';
 
 
 function App() {
@@ -23,6 +25,14 @@ function App() {
     {
       path:'/sports',
       element: <Sports/>
+    },
+    {
+      path:'/culturalview',
+      element : <Culturalview/>
+    },
+    {
+      path:'/culturalviewsingle/:id',
+      element : <Culturalsingleevent/>
     }
   ])
   return (
