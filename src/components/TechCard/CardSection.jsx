@@ -8,12 +8,10 @@ function CardSection() {
 
       {/* Card */}
       <div className="card">
-        <div className="card-front">
+        <div className="card">
           <img src='' alt="" />
         </div>
-        <div className="card-back">
-          <h2>Back Side</h2>
-        </div>
+       
       </div>        
       {/* Card */}
       <div className="card">

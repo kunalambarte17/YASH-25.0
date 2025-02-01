@@ -11,10 +11,12 @@
   },
   "dependencies": {
     "anchor-link": "^3.6.0",
+    "framer-motion": "^12.0.6",
     "react": "^18.3.1",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^18.3.1",
     "react-router-dom": "^7.1.4",
+    "react-vertical-timeline-component": "^3.5.3",
     "swiper": "^11.2.2"
   },
   "devDependencies": {

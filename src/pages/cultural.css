@@ -1,7 +1,6 @@
 .cul {
   position: relative;
-  height: 100vh;
-  width: 100%;
+  height: 100%;
   background-size: cover;
   background-position: center;
 }
@@ -18,4 +17,84 @@
   background-position: center;
   filter: blur(3px); /* Apply blur only to the background */
   z-index: -1; /* Ensure the background stays behind the content */
+}
+
+.cule {
+  position: relative;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.cule::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("../assets/bg4.jpeg");
+  background-size: cover;
+  background-position: center;
+  filter: blur(3px); /* Apply blur only to the background */
+  z-index: -1; /* Ensure the background stays behind the content */
+}
+.swiper-slide {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.swiper-slide-active,
+.swiper-slide-prev,
+.swiper-slide-next {
+  opacity: 1;
+  visibility: visible;
+}
+/* For the Left Arrow */
+.swiper-button-prev {
+  background-image: url('../assets/cultural/left.png'); /* Your custom left arrow image */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 40px; /* Adjust width */
+  height: 40px; /* Adjust height */
+  visibility: visible; /* Ensure custom arrow is visible */
+}
+
+/* For the Right Arrow */
+.swiper-button-next {
+  background-image: url('../assets/cultural/right.png'); /* Your custom right arrow image */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 40px; /* Adjust width */
+  height: 40px; /* Adjust height */
+  visibility: visible; /* Ensure custom arrow is visible */
+}
+
+/* Hide the default blue arrows */
+.swiper-button-prev, .swiper-button-next {
+  background-color: transparent !important; /* Remove background */
+  color: transparent !important; /* Remove any default color */
+  box-shadow: none !important; /* Remove any box shadow */
+}
+
+/* Optional: Customize the position of the arrows */
+.swiper-button-prev,
+.swiper-button-next {
+  position: absolute;
+  top: 40%; /* Adjust the value to position closer to the card */
+  transform: translateY(-50%); /* Keep vertical centering */
+  z-index: 10;
+  width: 70px; /* Adjust size */
+  height: 70px; /* Adjust size */
+}
+
+.swiper-button-prev {
+  left: 10px; /* Position the left arrow on the left side */
+}
+
+.swiper-button-next {
+  right: 10px; /* Position the right arrow on the right side */
 }

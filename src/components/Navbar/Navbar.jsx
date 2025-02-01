@@ -19,7 +19,7 @@ const Navbar = () => {
 
 
   return (
-    <div className="navbar">
+    <div className="navbar ">
       <a href="/"><img src={logo} alt="" className="logo" /></a>
       <img src={menu_open} onClick={openMenu} alt="" className="nav-mob-open" />
       <ul ref={menuRef} className="nav_menu">
