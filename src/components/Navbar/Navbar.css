@@ -2,12 +2,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     width: 100%;
     position: sticky;
     top: 0px;
     z-index: 1000;
+    backdrop-filter: blur(10px);
+
     /* background-color: #00000086; */
 }
 
@@ -28,6 +30,14 @@
     gap: 60px;
     font-size: 20px;
     list-style : none;
+    background-color: rgba(203, 213, 225, 0.5); /* Equivalent to bg-slate-300 with bg-opacity-50 */
+    padding-top: 1.25rem; /* Equivalent to py-5 */
+    padding-bottom: 1.25rem; /* Equivalent to py-5 */
+    padding-left: 2.25rem; /* Equivalent to px-9 */
+    padding-right: 2.25rem; /* Equivalent to px-9 */
+    border-radius: 0.75rem; /* Equivalent to rounded-xl */
+    backdrop-filter: blur(20px);
+  
     
 }
 /* .Border{
@@ -74,6 +84,9 @@
 
 
 @media (max-width:1287px) {
+    .navbar{
+        backdrop-filter: none;
+    }
     .nav-connect{
         display: none;
     }
@@ -85,8 +98,8 @@
     .nav-mob-close{
         display: block;
         position: relative;
-        top: 30px;
-        left: 290px;
+        top: 25px;
+        left: 260px;
         width: 30px;
     }
     .nav_menu{
@@ -95,12 +108,13 @@
         align-items: start;
         top: 0;
         gap: 30px;
-        background-color: #323539ef;
+        background-color: #32353966;
         width: 350px;
         height: 100%;
         z-index: 2;
         transition: right 0.5s;
         right: -350px;
+        color: white;
 
     }
     .nav_menu li{
