@@ -1,10 +1,12 @@
-import Navbar from "../components/Navbar/Navbar"
+import MainConatiner from "../components/TechMain/MainContainer"
+
 
 const Technical = () => {
   return (
     <>
-    <Navbar/>
-    <h1>technical page in progress</h1>
+    <div className="bg-bg-img">
+      <MainConatiner/>
+    </div>
     </>
   )
 }

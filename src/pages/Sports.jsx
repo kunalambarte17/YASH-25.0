@@ -1,6 +1,10 @@
+import SportsMain from "../components/SportsMain/SportsMain"
+
 const Sports = () => {
   return (
-    <div>Sports done</div>
+    <>
+      <SportsMain/>
+    </>
   )
 }
 
