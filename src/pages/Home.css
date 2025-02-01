@@ -1,5 +1,5 @@
 .home {
-  background-image: url("../assets/bgog.png");
+  background-image: url("../assets/bg4.jpeg");
   height: 100%;
   background-size: cover;
   background-position: center;
@@ -72,4 +72,17 @@
 .stat-head{
     font-size: 1.5rem; /* Equivalent to text-2xl */
   font-weight: 700; 
+}
+
+@media (width < 1300px){
+  .main-div{
+    margin-left: 5rem;
+  }
+}
+@media (width < 670px){
+  .main-div{
+    margin-left: 0;
+    align-items: center;
+    text-align: center;
+  }
 }

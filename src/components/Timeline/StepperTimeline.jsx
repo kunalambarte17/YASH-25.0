@@ -1,159 +1,137 @@
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-
 const timelineContent = [
+  // Cultural
   {
-    date: '11 Oct 2023',
-    title: 'UI UX Bootcamp',
-    iconurl: 'https://upsurge2k24.s3.ap-south-1.amazonaws.com/images/sponsors/gitConsultancy.png',
-    imageurl: 'https://upsurge2k24.s3.ap-south-1.amazonaws.com/images/sponsors/gitConsultancy.png',
-    time: '11am-1pm',
-    description: 'This Workshop is about on Web3',
+    iconurl: 'https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ21yb3dza2Q2MjhlN2F6ZXIwdjVxZGN4bmNudzYydGdyNWd4dWQ5aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9LvxxqmsgGdBrKn0ax/giphy.gif',
+    date: '9 Feb 2025',
+    event1: 'Symphonica prelims (10-12 pm)',
+    event2: ' Raaz Matazz prelims (12-2 pm)',
+    event3: '',
   },
+  //Technical
   {
-    date: '11 Oct 2023',
-    title: 'CyberSafe',
-    iconurl: '/AnimateIcons/cyborg.gif',
-    imageurl: '/EventsLogo/Scripted.png',
-    time: '12pm Onwards',
-    description: 'This Workshop is about on Cyber Security',
+    iconurl: 'https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzA0YWJpbDlhdml0ejc1b3p0MjBrcG4yN2YzMDhlbHBnbjVwNW0zcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZbOJHSRcz1Gn95PXpO/giphy.gif',
+    date: '9 Feb 2025',
+    event1: 'Microsoft Webinar',
+    event2: 'Visual Vibes',
+    event3: '',
   },
+  //Sports
   {
-    date: '11 Oct 2023',
-    title: 'Versus Coding',
-    iconurl: '/AnimateIcons/vs.gif',
-    imageurl: '/EventsLogo/VersusCoding.png',
-    time: '1pm-2pm',
-    description: 'This Workshop is about on Web3',
+    iconurl: 'https://media.giphy.com/channel_assets/sports/P658KMA9mwy4/200h.gif',
+    date: '9 Feb 2025',
+    event1: 'UI UX Bootcamp',
+    event2: '11am-1pm',
+    event3: 'This Workshop is about on Web3',
   },
+  // Cultural
   {
-    date: '11 Oct 2023',
-    title: 'WebNetics',
-    iconurl: '/AnimateIcons/statistics.gif',
-    imageurl: '/EventsLogo/WebNetics.png',
-    time: '2pm-3pm',
-    description: 'This Workshop is about on Web3',
+    iconurl: 'https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ21yb3dza2Q2MjhlN2F6ZXIwdjVxZGN4bmNudzYydGdyNWd4dWQ5aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9LvxxqmsgGdBrKn0ax/giphy.gif',
+    date: '10 Feb 2025',
+    event1: 'Flashmob',
+    event2: 'DJ Night (4pm onwards)',
+    event3: '',
   },
+  //Technical
   {
-    date: '11 Oct 2023',
-    title: 'Optimiser',
-    iconurl: '/AnimateIcons/setting.gif',
-    imageurl: '/EventsLogo/Optimizer.png',
-    time: '9pm-11.30pm',
-    description: 'This Workshop is about on Web3',
+    iconurl: 'https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzA0YWJpbDlhdml0ejc1b3p0MjBrcG4yN2YzMDhlbHBnbjVwNW0zcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZbOJHSRcz1Gn95PXpO/giphy.gif',
+    date: '10 Feb 2025',
+    event1: 'Debate Competition',
+    event2: 'Turning Tussle',
+    event3: '',
   },
+  // Cultural
   {
-    date: '12 Oct 2023',
-    title: 'Scripted Secrets',
-    iconurl: '/AnimateIcons/cyborg.gif',
-    imageurl: '/EventsLogo/Scripted.png',
-    time: '12pm-2pm',
-    description: 'This Workshop is about on Web3',
+    iconurl: 'https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ21yb3dza2Q2MjhlN2F6ZXIwdjVxZGN4bmNudzYydGdyNWd4dWQ5aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9LvxxqmsgGdBrKn0ax/giphy.gif',
+    date: '11 Feb 2025',
+    event1: 'Traditional Day (11 am onwards)',
+    event2: '',
+    event3: '',
   },
+  //Technical
   {
-    date: '12 Oct 2023',
-    title: 'Arduino Workshop',
-    iconurl: '/AnimateIcons/multiple-sensor.gif',
-    imageurl: '/EventsLogo/Arduino.png',
-    time: '2pm-4pm',
-    description: 'This Workshop is about on Web3',
+    iconurl: 'https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzA0YWJpbDlhdml0ejc1b3p0MjBrcG4yN2YzMDhlbHBnbjVwNW0zcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZbOJHSRcz1Gn95PXpO/giphy.gif',
+    date: '12 Feb 2025',
+    event1: 'Cognitive Clash',
+    event2: 'Resume It',
+    event3: '',
   },
+  // Cultural
   {
-    date: '12 Oct 2023',
-    title: 'Web3 Workshop',
-    iconurl: '/AnimateIcons/blocked.gif',
-    imageurl: '/EventsLogo/Web3.png',
-    time: '6pm Onwards',
-    description: 'This Workshop is about on Web3',
+    iconurl: 'https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ21yb3dza2Q2MjhlN2F6ZXIwdjVxZGN4bmNudzYydGdyNWd4dWQ5aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9LvxxqmsgGdBrKn0ax/giphy.gif',
+    date: '12 Feb 2025',
+    event1: 'Freshers',
+    event2: 'Open mic (12-3pm)',
+    event3: 'Bandocylpse (3-6pm)',
   },
+  //Technical
   {
-    date: '12 Oct 2023',
-    title: 'Power Bi Workshop',
-    iconurl: '/AnimateIcons/stats.gif',
-    imageurl: '/EventsLogo/PowerBI.png',
-    time: '3pm-4:30pm',
-    description: 'This Workshop is about on Web3',
+    iconurl: 'https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzA0YWJpbDlhdml0ejc1b3p0MjBrcG4yN2YzMDhlbHBnbjVwNW0zcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZbOJHSRcz1Gn95PXpO/giphy.gif',
+    date: '13 Feb 2025',
+    event1: 'Codista ',
+    event2: 'Tech Art Fusion',
+    event3: 'PCB Nexus',
   },
+  // Cultural
   {
-    date: '13 Oct 2023',
-    title: 'Cloud Skills Challenge',
-    iconurl: '/AnimateIcons/coding.gif',
-    imageurl: '/EventsLogo/Optimizer.png',
-    time: '2pm - 3pm',
-    description: 'This challenge is about learning cloud',
+    iconurl: 'https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ21yb3dza2Q2MjhlN2F6ZXIwdjVxZGN4bmNudzYydGdyNWd4dWQ5aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9LvxxqmsgGdBrKn0ax/giphy.gif',
+    date: '13 Feb 2025',
+    event1: 'Marathi Drama (10-12 pm)',
+    event2: 'Symphonica finals (12-2pm)',
+    event3: 'Farzi mushaira + jashn-e-mehfil (2.30 - 5pm)',
   },
+  //Technical
   {
-    date: '13 Oct 2023',
-    title: 'Computing Technologies',
-    iconurl: '/AnimateIcons/coding.gif',
-    imageurl: '/EventsLogo/ComputingTechnology.png',
-    time: '4pm Onwards',
-    description: 'This Workshop is about on Web3',
+    iconurl: 'https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzA0YWJpbDlhdml0ejc1b3p0MjBrcG4yN2YzMDhlbHBnbjVwNW0zcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZbOJHSRcz1Gn95PXpO/giphy.gif',
+    date: '13 Feb 2025',
+    event1: 'Robo Soccer',
+    event2: 'IEEE Workshop',
+    event3: '',
   },
+  //Technical
   {
-    date: '11 Oct 2023',
-    title: 'Chess',
-    iconurl: '/AnimateIcons/chess.gif',
-    imageurl: '/EventsLogo/CHESS.png',
-    time: '10am Onwards',
-    description: 'This Workshop is about on Web3',
+    iconurl: 'https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzA0YWJpbDlhdml0ejc1b3p0MjBrcG4yN2YzMDhlbHBnbjVwNW0zcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZbOJHSRcz1Gn95PXpO/giphy.gif',
+    date: '13 Feb 2025',
+    event1: 'Lazer Gun',
+    event2: 'Science Exhibition',
+    event3: '',
   },
+  // Cultural
   {
-    date: '11 Oct 2023',
-    title: 'Power Rumble',
-    iconurl: '/AnimateIcons/abs.gif',
-    imageurl: '/EventsLogo/BODYBUILDING.png',
-    time: '12pm Onwards',
-    description: 'This Workshop is about on Web3',
+    iconurl: 'https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ21yb3dza2Q2MjhlN2F6ZXIwdjVxZGN4bmNudzYydGdyNWd4dWQ5aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9LvxxqmsgGdBrKn0ax/giphy.gif',
+    date: '14 Feb 2025',
+    event1: ' Meghashree (10-12 pm)',
+    event2: 'Raaz mataz finals (12-1.30pm)',
+    event3: 'Fashionista (2-5 pm)',
   },
+  //Technical
   {
-    date: '11 Oct 2023',
-    title: 'Box Cricket',
-    iconurl: '/AnimateIcons/cricket.gif',
-    imageurl: '/EventsLogo/BOXCRICKET.png',
-    time: '12pm Onwards',
-    description: 'This Workshop is about on Web3',
+    iconurl: 'https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzA0YWJpbDlhdml0ejc1b3p0MjBrcG4yN2YzMDhlbHBnbjVwNW0zcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZbOJHSRcz1Gn95PXpO/giphy.gif',
+    date: '14 Feb 2025',
+    event1: 'Blueprint to Bridge',
+    event2: 'Buzz Wire',
+    event3: '',
   },
+  //Technical
   {
-    date: '11 Oct 2023',
-    title: 'Lens Crafter',
-    iconurl: '/AnimateIcons/photo-camera.gif',
-    imageurl: '/EventsLogo/Lens Crafters.png',
-    time: '10am Onwards',
-    description: 'This Workshop is about on Web3',
+    iconurl: 'https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzA0YWJpbDlhdml0ejc1b3p0MjBrcG4yN2YzMDhlbHBnbjVwNW0zcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZbOJHSRcz1Gn95PXpO/giphy.gif',
+    date: '14 Feb 2025',
+    event1: 'NoCode AI Innovators',
+    event2: 'Code & Canvas',
+    event3: '',
   },
+  // Cultural
   {
-    date: '12 Oct 2023',
-    title: 'BGMI',
-    iconurl: '/AnimateIcons/gamer.gif',
-    imageurl: '/EventsLogo/BGMI.png',
-    time: '11am Onwards',
-    description: 'This Workshop is about on Web3',
+    iconurl: 'https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ21yb3dza2Q2MjhlN2F6ZXIwdjVxZGN4bmNudzYydGdyNWd4dWQ5aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9LvxxqmsgGdBrKn0ax/giphy.gif',
+    date: '15 Feb 2025',
+    event1: 'Bharavi (all day)',
+    event2: '',
+    event3: '',
   },
-  {
-    date: '12 Oct 2023',
-    title: 'Valorant',
-    iconurl: '/AnimateIcons/players.gif',
-    imageurl: '/EventsLogo/VALROANT.png',
-    time: '6pm Onwards',
-    description: 'This Workshop is about on Web3',
-  },
-  {
-    date: '12 Oct 2023',
-    title: 'Futsal',
-    iconurl: '/AnimateIcons/football-player.gif',
-    imageurl: '/EventsLogo//FOOTBALL.png',
-    time: '12pm Onwards',
-    description: 'This Workshop is about on Web3',
-  },
-  {
-    date: '12 Oct 2023',
-    title: 'Rhthym Encore',
-    iconurl: '/AnimateIcons/fan.gif',
-    imageurl: '/EventsLogo/DANCE.png',
-    time: '4pm Onwards',
-    description: 'This Workshop is about on Web3',
-  },
+  
+  
+  
 ];
 
 const StepperTimeline = () => {
@@ -163,9 +141,9 @@ const StepperTimeline = () => {
         {timelineContent.map((content, index) => (
           <VerticalTimelineElement
             key={index}
-            className="vertical-timeline-element animate__animated animate__fadeIn"
+            className="vertical-timeline-element animate__animated animate__fadeIn "
             contentStyle={{
-              background: 'rgba(0, 0, 0, 0.5)',
+              background: 'rgba(0, 0, 0, 0.7)',
               borderRadius: '20px',
               border: '2px solid teal-800',
               color: 'white',
@@ -192,36 +170,33 @@ const StepperTimeline = () => {
                 src={content.iconurl}
                 alt=""
                 style={{ width: '100%', height: '100%', borderRadius: '50%' }}
-                className='bg-white'
+                className='bg-black'
               />
             }
           >
             <div
               style={{
                 display: 'flex',
-                justifyContent: 'space-between',
-                alignItems: 'center',
+                // justifyContent: 'space-between',
+                // alignItems: 'center',
                 width: '100%',
+                
               }}
             >
-              <div>
-                <h5 className="mb-2 text-xl md:text-2xl lg:text-3xl font-bold text-white">
-                  {content.title}
-                </h5>
-                <div className="flex flex-row md:flex md:flex-col">
-                  <h4 className="text-sm md:text-base lg:text-lg text-white mr-2">
-                    {content.time}
-                  </h4>
-                  <h4 className="text-sm md:text-base lg:text-lg text-white">
+              <div >
+                  <h4 className="text-sm md:text-base lg:text-3xl font-extrabold text-white">
                     {content.date}
                   </h4>
-                </div>
+                <h5 className="text-sm md:text-base lg:text-2xl text-white mr-2">
+                  {content.event1}
+                </h5>
+                <h4 className="text-sm md:text-base lg:text-2xl text-white mr-2">
+                  {content.event2}
+                </h4>
+                <h4 className="text-sm md:text-base lg:text-2xl text-white mr-2">
+                  {content.event3}
+                </h4>
               </div>
-              <img
-                src={content.imageurl}
-                alt="image"
-                className="w-28 h-28 hover:translate-y-[-10px] rounded-lg bg-fuchsia-200"
-              />
             </div>
           </VerticalTimelineElement>
         ))}
