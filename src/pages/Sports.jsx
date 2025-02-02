@@ -7,6 +7,7 @@ import sportEvents from "../pages/SportDetails.js";
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/effect-coverflow';  
+import event from '../pages/SportDetails';
 
 const Sports = () => {
   return (
@@ -46,7 +47,9 @@ const Sports = () => {
           >
             {sportEvents.map((event, index) => (
               <SwiperSlide key={event.id} className={`swiper-slide-${index % 3 === 0 ? 'left' : index % 3 === 1 ? 'center' : 'right'}`}>
+                <Link className="anchor-link" to={`/sportviewsingle/${event.id}`}>
                 <img className="lg:h-96 md:h-72 h-44 w-full border rounded-xl" src={event.image} alt={`Slide ${index + 1}`} />
+                </Link>
               </SwiperSlide>
             ))}
           </Swiper>
