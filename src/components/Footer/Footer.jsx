@@ -52,7 +52,7 @@ const Footer = () => {
           </a>
           &nbsp;
           <a
-            href=""
+            href="https://kunalambarte.vercel.app/"
             target="blank"
             className=" text-xl font-extrabold hover:underline"
           >
