@@ -3,6 +3,8 @@
     height: 100%;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
+    background-image: url("../assets/bg4.jpeg");
   }
   
   .cul::before {
@@ -24,6 +26,8 @@
     height: 100vh;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
+    background-image: url("../assets/bg4.jpeg");
   }
   
   .cule::before {

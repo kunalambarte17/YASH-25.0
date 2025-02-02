@@ -13,14 +13,14 @@ const Sports = () => {
   return (
     <div className="cul">
       <Navbar />
-      <div className="w-[100%] flex flex-col items-center text-white justify-center py-6 px-4">
+      <div className="h-[100vh] flex flex-col items-center text-white justify-center py-6 px-4">
         {/* Title */}
-        <h1 className="lg:text-7xl text-4xl font-extrabold text-center mb-8">
+        <h1 className="lg:text-7xl text-5xl font-extrabold text-center mb-8">
           Sports Events
         </h1>
 
         {/* Swiper slider */}
-        <div className="w-full my-8 h-full mx-auto px-10">
+        <div className="w-full my-8  mx-auto px-10">
           <Swiper
             slidesPerView={3}
             spaceBetween={-200}
@@ -58,7 +58,7 @@ const Sports = () => {
         {/* View All Button */}
         <div>
           <Link className="anchor-link" to={"/sportview"}>
-            <button className="p-4 px-7 text-black rounded-xl font-bold text-2xl bg-white">
+            <button className="p-4 px-7 text-black rounded-xl font-bold lg:text-2xl text-lg  bg-white">
               VIEW ALL
             </button>
           </Link>     
