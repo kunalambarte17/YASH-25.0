@@ -4,6 +4,8 @@ import logo from "../assets/logo.png";
 import Sponsors from "../components/Sponsors/Sponsors";
 import StepperTimeline from "../components/Timeline/StepperTimeline";
 import Footer from "../components/Footer/Footer";
+import Timer from "../components/Timer/Timer";
+// import { useEffect, useState } from "react";
 
 const Home = () => {
   return (
@@ -11,11 +13,15 @@ const Home = () => {
       <Navbar />
       <div className="main-div">
         <div className="heading-conatiner">
-          {/* <p className="enigma-p">YCCE Presents</p> */}
-          <img src={logo} alt="" height={50} width={500} />
-          <p className="sub-heading mt-8">A Celebration of Innovation and Creativity</p>
+            {/* <p className="enigma-p">YCCE Presents</p> */}
+            <img src={logo} alt="" height={50} width={500} className="ycce"/>
+          <p className="sub-heading mt-8 font-bold text-xl">A Celebration of Innovation and Creativity</p>
         </div>
       </div>
+        <div className="flex justify-center items-center text-center flex-col mt-16 mb-16">
+          <h1 className="text-6xl font-extrabold text-white mb-8">Inaguration</h1>
+          <Timer launchDate="2025-02-13T10:00:00" /> 
+        </div>
       <div className="flex justify-center items-start">
         <h1 className="text-6xl text-white font-extrabold ml-8 ">ABOUT</h1>
       </div>

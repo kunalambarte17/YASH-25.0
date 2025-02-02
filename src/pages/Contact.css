@@ -40,8 +40,9 @@
     margin-top: 10px;
   }
   .contact-table th, .contact-table td {
-    /* border: 1px solid #ddd; */
+    /* border: 1px solid #cbd5e180; */
     padding: 10px;
+    /* border-radius: 15px; */
   }
   .contact-table th {
     background-color: #000000d9;
@@ -74,6 +75,47 @@
     border-bottom-right-radius: 15px;
   }
 
+  /* Event */  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .table th, .table td {
+    padding: 10px;
+    text-align: center;
+    /* border: 1px solid #cbd5e180; */
+  }
+  
+  .table th {
+    background-color: #000000d9;
+    color: white;
+    font-size: 2rem;
+  }
+  
+  .table td {
+    background-color: #0000009e;
+    color: White;
+    font-size: 1.2rem;
+  }
+
+  .table thead th:first-child {
+    border-top-left-radius: 15px;
+  }
+  
+  .table thead th:last-child {
+    border-top-right-radius: 15px;
+  }
+  
+  .table tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 15px;
+  }
+  
+  .table tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 15px;
+  }
+  
 
   @media (width < 1350px) {
     .table-box{

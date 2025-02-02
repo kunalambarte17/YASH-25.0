@@ -8,7 +8,7 @@ const Footer = () => {
           <span className="text-2xl">&copy;</span>&nbsp;
           <span className="font-extrabold text-2xl">2025</span>
           &nbsp;&lt;&#x2215;&gt;&nbsp;
-          <span className="font-extrabold text-2xl">YASH Team </span>
+          <span className="font-extrabold text-3xl">YASH Team </span>
         </p>
         <p className="text-xl mt-4">
           <a href="https://github.com/laukik-24/YASH-25.0">
@@ -20,11 +20,11 @@ const Footer = () => {
       <div className="footer-right m-0 ">
         <div className="social-icons">
           <a
-            href="https://www.ycce.edu/"
+            href="https://www.youtube.com/@YCCEOFFICIAL"
             target="_blank"
             className="cursor-pointer"
           >
-            <i className="fa-brands fa-linkedin foot-icon"></i>
+            <i className="fa-brands fa-youtube text-xl"></i>
           </a>
           <a
             href="https://www.instagram.com/yash_25.0_?igsh=MTZoYXZhaDZ2NnhseA=="
@@ -52,7 +52,7 @@ const Footer = () => {
           </a>
           &nbsp;
           <a
-            href=""
+            href="https://kunalambarte.vercel.app/"
             target="blank"
             className=" text-xl font-extrabold hover:underline"
           >
@@ -60,7 +60,7 @@ const Footer = () => {
           </a>
           &nbsp;
           <a
-            href=""
+            href="https://ccstack-portfolio.vercel.app/"
             target="blank"
             className=" text-xl font-extrabold hover:underline"
           >
@@ -68,7 +68,7 @@ const Footer = () => {
           </a>
           &nbsp;{" "}
           <a
-            href=""
+            href="https://www.linkedin.com/in/mirzarayyanbaig?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             target="blank"
             className=" text-xl font-extrabold hover:underline"
           >
