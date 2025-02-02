@@ -17,14 +17,7 @@ const timelineContent = [
     event2: 'Visual Vibes',
     event3: '',
   },
-  //Sports
-  {
-    iconurl: 'https://media.giphy.com/channel_assets/sports/P658KMA9mwy4/200h.gif',
-    date: '9 Feb 2025',
-    event1: 'UI UX Bootcamp',
-    event2: '11am-1pm',
-    event3: 'This Workshop is about on Web3',
-  },
+  
   // Cultural
   {
     iconurl: 'https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ21yb3dza2Q2MjhlN2F6ZXIwdjVxZGN4bmNudzYydGdyNWd4dWQ5aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9LvxxqmsgGdBrKn0ax/giphy.gif',
@@ -184,16 +177,16 @@ const StepperTimeline = () => {
               }}
             >
               <div >
-                  <h4 className="text-sm md:text-base lg:text-3xl font-extrabold text-white">
+                  <h4 className="text-2xl md:text-base lg:text-3xl font-extrabold text-white">
                     {content.date}
                   </h4>
-                <h5 className="text-sm md:text-base lg:text-2xl text-white mr-2">
+                <h5 className="text-2xl md:text-base lg:text-2xl text-white mr-2">
                   {content.event1}
                 </h5>
-                <h4 className="text-sm md:text-base lg:text-2xl text-white mr-2">
+                <h4 className="text-2xl md:text-base lg:text-2xl text-white mr-2">
                   {content.event2}
                 </h4>
-                <h4 className="text-sm md:text-base lg:text-2xl text-white mr-2">
+                <h4 className="text-2xl md:text-base lg:text-2xl text-white mr-2">
                   {content.event3}
                 </h4>
               </div>
