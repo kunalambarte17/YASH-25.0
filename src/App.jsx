@@ -9,6 +9,7 @@ import Sportview from './pages/Sportview.jsx';
 import Sportsingleevent from './pages/Sportsingleevent.jsx';
 import Technicalsingleevent from './pages/Technicalsingleevent.jsx';
 import Technicalview from './pages/Technicalview.jsx';
+import Contact from './pages/Contact.jsx';
 
 
 function App() {
@@ -53,6 +54,10 @@ function App() {
     {
       path:'/Technicalview',
       element : <Technicalview/>
+    },
+    {
+      path:'/contact',
+      element: <Contact/>
     }
   ])
   return (
