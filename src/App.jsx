@@ -5,6 +5,10 @@ import Sports from "./pages/Sports.jsx";
 import Technical from './pages/Technical.jsx';
 import Culturalview from './pages/Culturalview.jsx';
 import Culturalsingleevent from './pages/Culturalsingleevent.jsx';
+import Sportview from './pages/Sportview.jsx';
+import Sportsingleevent from './pages/Sportsingleevent.jsx';
+import Technicalsingleevent from './pages/Technicalsingleevent.jsx';
+import Technicalview from './pages/Technicalview.jsx';
 
 
 function App() {
@@ -33,6 +37,22 @@ function App() {
     {
       path:'/culturalviewsingle/:id',
       element : <Culturalsingleevent/>
+    },
+    {
+      path:'/sportviewsingle/:id',
+      element : <Sportsingleevent/>
+    },
+    {
+      path:'/sportview',
+      element : <Sportview/>
+    },
+    {
+      path:'/Technicalviewsingle/:id',
+      element : <Technicalsingleevent/>
+    },
+    {
+      path:'/Technicalview',
+      element : <Technicalview/>
     }
   ])
   return (
