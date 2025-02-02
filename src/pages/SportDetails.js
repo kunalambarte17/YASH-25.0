@@ -1,19 +1,22 @@
-import des1 from '../assets/cultural/bandapocalypse.png';
-import des2 from '../assets/cultural/bhairavi.png';
-import des3 from '../assets/cultural/farzimushaira.png';
-import des4 from '../assets/cultural/fashionista.png';
-import des5 from '../assets/cultural/flashmob.png';
-import des6 from '../assets/cultural/focus fest ka text change karo.png';
-import des7 from '../assets/cultural/framebyframe.png';
-import des8 from '../assets/cultural/freshers.png';
-import des9 from '../assets/cultural/jashn.png';
-import des10 from '../assets/cultural/mehgheshree.png';
-import des11 from '../assets/cultural/miniogvlogverse.png';
-import des12 from '../assets/cultural/muktswar.png';
-import des13 from '../assets/cultural/openmic.png';
-import des14 from '../assets/cultural/razmataaz.png';
-import des15 from '../assets/cultural/ReelitReal.png';
-import des16 from '../assets/cultural/symphonica.png';
+import des1 from '../assets/Sports/badmintonboys.png';
+import des2 from '../assets/Sports/badmintongirls.png';
+import des3 from '../assets/Sports/basketball.png';
+import des4 from '../assets/Sports/bgmi.png';
+import des5 from '../assets/Sports/boxcricketboys.png';
+import des6 from '../assets/Sports/boxcricketgirls.png';
+import des7 from '../assets/Sports/carrom.png';
+import des8 from '../assets/Sports/chess.png';
+import des9 from '../assets/Sports/commandoroom.png';
+import des10 from '../assets/Sports/fifa.png';
+import des11 from '../assets/Sports/freefire.png';
+import des12 from '../assets/Sports/futsal.png';
+import des13 from '../assets/Sports/futsal.png';
+import des14 from '../assets/Sports/long cricket.png';
+import des15 from '../assets/Sports/smashkarts.png';
+import des16 from '../assets/Sports/tugofwarboys.png';
+import des17 from '../assets/Sports/tugofwargirls.png';
+import des18 from '../assets/Sports/valorant.png';
+import des19 from '../assets/Sports/volleyball.png';
 
 const sportEvents = [
     { id: 1, title: "Band Apocalypse", description: "A high-energy battle of bands.", image: des1 },
@@ -32,6 +35,9 @@ const sportEvents = [
     { id: 14, title: "Razmataaz", description: "A stunning group dance competition.", image: des14 },
     { id: 15, title: "Reel It Real", description: "A short-form video contest capturing real-life moments.", image: des15 },
     { id: 16, title: "Symphonica", description: "An orchestral and instrumental music concert.", image: des16 },
+    { id: 17, title: "Symphonica", description: "An orchestral and instrumental music concert.", image: des17 },
+    { id: 18, title: "Symphonica", description: "An orchestral and instrumental music concert.", image: des18 },
+    { id: 19, title: "Symphonica", description: "An orchestral and instrumental music concert.", image: des19 }
   ];
   
   export default sportEvents;

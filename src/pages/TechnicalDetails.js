@@ -1,19 +1,21 @@
-import des1 from '../assets/cultural/bandapocalypse.png';
-import des2 from '../assets/cultural/bhairavi.png';
-import des3 from '../assets/cultural/farzimushaira.png';
-import des4 from '../assets/cultural/fashionista.png';
-import des5 from '../assets/cultural/flashmob.png';
-import des6 from '../assets/cultural/focus fest ka text change karo.png';
-import des7 from '../assets/cultural/framebyframe.png';
-import des8 from '../assets/cultural/freshers.png';
-import des9 from '../assets/cultural/jashn.png';
-import des10 from '../assets/cultural/mehgheshree.png';
-import des11 from '../assets/cultural/miniogvlogverse.png';
-import des12 from '../assets/cultural/muktswar.png';
-import des13 from '../assets/cultural/openmic.png';
-import des14 from '../assets/cultural/razmataaz.png';
-import des15 from '../assets/cultural/ReelitReal.png';
-import des16 from '../assets/cultural/symphonica.png';
+import des1 from '../assets/Technical/avishkar.png';
+import des2 from '../assets/Technical/blueprinttobridge.png';
+import des3 from '../assets/Technical/buzzwire.png';
+import des4 from '../assets/Technical/codeandcanvas.png';
+import des5 from '../assets/Technical/codeista.png';
+import des6 from '../assets/Technical/cognitive.png';
+import des7 from '../assets/Technical/debate.png';
+import des8 from '../assets/Technical/enigma.png';
+import des9 from '../assets/Technical/ieeworkshop.png';
+import des10 from '../assets/Technical/lasergun.png';
+import des11 from '../assets/Technical/microsoftwebinar.png';
+import des12 from '../assets/Technical/nocodeai.png';
+import des13 from '../assets/Technical/pcbnexus.png';
+import des14 from '../assets/Technical/resumeit.png';
+import des15 from '../assets/Technical/robosoccer.png';
+import des16 from '../assets/Technical/techartfusion.png';
+import des17 from '../assets/Technical/turningtussle.png';
+import des18 from '../assets/Technical/visualvibes.png';
 
 const technicalEvents = [
     { id: 1, title: "Band Apocalypse", description: "A high-energy battle of bands.", image: des1 },
@@ -32,6 +34,8 @@ const technicalEvents = [
     { id: 14, title: "Razmataaz", description: "A stunning group dance competition.", image: des14 },
     { id: 15, title: "Reel It Real", description: "A short-form video contest capturing real-life moments.", image: des15 },
     { id: 16, title: "Symphonica", description: "An orchestral and instrumental music concert.", image: des16 },
+    { id: 17, title: "Reel It Real", description: "A short-form video contest capturing real-life moments.", image: des17 },
+    { id: 18, title: "Symphonica", description: "An orchestral and instrumental music concert.", image: des18 }
   ];
   
   export default technicalEvents;
