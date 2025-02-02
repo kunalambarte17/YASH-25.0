@@ -37,22 +37,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (width<1250px) {
     .footer{
         flex-direction: column;
@@ -62,12 +46,12 @@
         text-align: center;
     }
     .footer-left{
-        margin: 0 3rem 0 3rem;
+        margin: 0 ;
     }
     
     .footer-right{
         display: flex;
-        margin: 0 3rem 0 3rem;
+        margin: 0;
         justify-content: center;
         align-items: center;
     }

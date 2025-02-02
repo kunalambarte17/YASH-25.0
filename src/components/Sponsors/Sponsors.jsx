@@ -1,67 +1,48 @@
 import { motion } from 'framer-motion';
-// import logo from "../../assets/logo.png";
+import brandStore from "../../assets/sponsors/brandStore.png"
+import ims from "../../assets/sponsors/ims.png"
+import Infinitylounge from "../../assets/sponsors/Infinitylounge.png"
+import Infinity1 from "../../assets/sponsors/infinityturf.png"
+import kcoverseas from "../../assets/sponsors/kcoverseas.jpg"
+import PoolSnooker from "../../assets/sponsors/PoolSnooker.png"
+import trusha from "../../assets/sponsors/trusha.png"
 
 const Sponsors = () => {
     const sponsorData = [
         {
-            src: "https://upsurge2k24.s3.ap-south-1.amazonaws.com/images/sponsors/gitConsultancy.png",
-            alt: "Git Consultancy",
+            src: brandStore,
+            alt: "Brand Store",
             width: "150"
         },
         {
-            src: "https://upsurge2k24.s3.ap-south-1.amazonaws.com/images/sponsors/cojag.png",
-            alt: "cojag",
+            src: Infinitylounge,
+            alt: "Infinity Lounge",
             width: "220"
         },
         {
-            src: "https://upsurge2k24.s3.ap-south-1.amazonaws.com/images/sponsors/new-Mk.png",
-            alt: "MK",
-            width: "150"
+            src: ims,
+            alt: "IMS",
+            width: "250"
         },
         {
-            src: "https://upsurge2k24.s3.ap-south-1.amazonaws.com/images/sponsors/unstop-logo.svg",
-            alt: "unstop",
-            width: "200"
+            src: Infinity1,
+            alt: "Infinity Turf",
+            width: "250"
         },
         {
-            src: "https://upsurge2k24.s3.ap-south-1.amazonaws.com/images/sponsors/DBMart.png",
+            src: kcoverseas,
             alt: "DB Mart",
             width: "180"
         },
         {
-            src: "https://upsurge2k24.s3.ap-south-1.amazonaws.com/images/sponsors/webgurukul.png", 
+            src: PoolSnooker, 
             alt: "Webgurukul",
             width: "180"
         },
         {
-            src: "https://upsurge2k24.s3.ap-south-1.amazonaws.com/images/sponsors/time.png",
+            src: trusha,
             alt: "TIMES",
-            width: "180"
-        },
-        {
-            src: "https://upsurge2k24.s3.ap-south-1.amazonaws.com/images/sponsors/brLifeStyle.png",
-            alt: "BR Life Styles",
-            width: "180"
-        },
-        {
-            src: "https://upsurge2k24.s3.ap-south-1.amazonaws.com/images/sponsors/dahiya.jpg",
-            alt: "Dahiya Momos",
-            width: "180"
-        },
-        {
-            src: "https://upsurge2k24.s3.ap-south-1.amazonaws.com/images/sponsors/travosa.png",
-            alt: "Travosa",
-            width: "200"
-        },
-        {
-            src: "https://upsurge2k24.s3.ap-south-1.amazonaws.com/images/sponsors/SHIVTWISTER.jpg",
-            alt: "Shiv Twister",
-            width: "200"
-        },
-        {
-            src: "https://upsurge2k24.s3.ap-south-1.amazonaws.com/images/sponsors/SubhiMocktils.png",
-            alt: "Subhi Mocktails",
-            width: "180"
+            width: "250"
         },
     ];
 
@@ -85,7 +66,7 @@ const Sponsors = () => {
                             <motion.div
                                 className="flex pt-20"
                                 animate={{
-                                    x: ["0%", "-100%"], // Scroll left and loop back
+                                    x: ["0%", "-90%"], // Scroll left and loop back
                                 }}
                                 transition={{
                                     duration: 30,
@@ -100,7 +81,7 @@ const Sponsors = () => {
                                 {sponsorData.concat(sponsorData).map((slide, i) => (
                                     <div
                                         key={i}
-                                        className="flex-shrink-0 flex justify-center items-center bg-white w-[250px] h-[250px] mx-[70px] rounded-xl relative"
+                                        className="flex-shrink-0 flex justify-center items-center bg-black w-[250px] h-[250px] mx-[70px] rounded-xl relative"
                                     >
                                         <img
                                             src={slide.src}
