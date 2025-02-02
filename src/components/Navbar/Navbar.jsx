@@ -31,35 +31,35 @@ const Navbar = () => {
           className="nav-mob-close"
         />
         <li className="li-text">
-          <Link className="anchor-link text-black" to={"/"}>
+          <Link className="anchor-link text-black hover:text-white hover:text-3xl transition-all duration-300 ease-in-out" to={"/"}>
             <p>
               Home
             </p>
           </Link>
         </li>
         <li className= "li-text">
-          <Link className="anchor-link text-black" to={"/cultural"}>
+          <Link className="anchor-link text-black hover:text-white hover:text-3xl transition-all duration-300 ease-in-out" to={"/cultural"}>
             <p>
               Cultural
             </p>
           </Link>
         </li>
         <li className= "li-text">
-          <Link className="anchor-link text-black" to={"/technical"}>
+          <Link className="anchor-link text-black hover:text-white hover:text-3xl transition-all duration-300 ease-in-out" to={"/technical"}>
             <p>
               Technical
             </p>
           </Link>
         </li>
         <li className= "li-text">
-          <Link className="anchor-link text-black" to={"/sports"}>
+          <Link className="anchor-link text-black hover:text-white hover:text-3xl transition-all duration-300 ease-in-out" to={"/sports"}>
             <p>
               Sports
             </p>
           </Link>
         </li>
         <li className= "li-text">
-          <Link className="anchor-link text-black"  to={"/contact"}>
+          <Link className="anchor-link text-black  hover:text-white hover:text-3xl transition-all duration-300 ease-in-out"  to={"/contact"}>
             <p>
               Contact
             </p>
