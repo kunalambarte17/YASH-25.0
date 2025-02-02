@@ -6,12 +6,25 @@ import './Contact.css'
 function Contact() {
   const [activeTab, setActiveTab] = useState("Technical");
 
+  const data = [
+    { name: 'Om Thawkar', post: 'General Secretary', number: '8010295730' },
+    { name: 'Jay Kahate', post: 'Secretary - Technical', number: '8855011347' },
+    { name: 'Sakshi Thakre', post: 'Secretary - Cultural', number: '9404401737' },
+    { name: 'Jayesh Giri', post: 'Secretary - Sports', number: '9689610236' },
+    { name: 'Atharva Raut', post: 'Secretary - Design, Photography', number: '7387045237' },
+    { name: 'Saurabh Ghangare', post: 'Secretary - Store, Logistic, Database', number: '7517473393' },
+    { name: 'Akhilesh Bibte', post: 'Secretary - Publicity, Sponsorship', number: '82375 41150' },
+    { name: 'Ajinkya Bandawar', post: 'Secretary - Publicity, Sponsorship', number: '7620871578' },
+    { name: 'Harshdeep Ambule', post: 'Secretary - Hall Management, Hospitality, Event Management', number: '8080122182' },
+    { name: 'Geetkumar Rathod', post: 'Disaster Management', number: '9881586310' },
+  ];
+
   const eventContacts = {
     Technical: [
       { event: "Resume It", name: "Atharva Gadge, Soham Bakane", contact: "8208906757, 7261925013" },
       { event: "Codista", name: "Shekhar Nipane, Sachin Bisen", contact: "7796756745, 9322027926" },
-      { event: "Tech Art Fusion", name: "Rishabh Kothari, Palash Shendre", contact: "89563 66909, 70588 87437" },
-      { event: "Blueprint To Bridge", name: "Janvhi Gulhane, Gunjan Deogade", contact: "78218 72983, 89753 73410"},
+      { event: "Tech Art Fusion", name: "Rishabh Kothari, Palash Shendre", contact: "8956366909, 7058887437" },
+      { event: "Blueprint To Bridge", name: "Janvhi Gulhane, Gunjan Deogade", contact: "7821872983, 8975373410"},
       { event: "Debate Compitition", name: "Krutika Umale, Gauri Nagpure", contact: "7499315247, 7841097192" },
       { event: "Turning Tussle", name: "Chetan Pise, Prathmesh Dhawas", contact: "9011704946, 9637865210" },
       { event: "PCB Nexus", name: "Yash Sayre, Sheikh Safee", contact: "84688 33473, 93566 23585" },
@@ -59,6 +72,31 @@ function Contact() {
   return (
     <div className='Main-contact-box'>
       <Navbar/>
+      {/* Commity */}
+      <h2 className="title">Student Council</h2>
+      <div className="table-box">
+        <div className="table-container ">
+          <table className="table">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Post</th>
+                <th>Number</th>
+              </tr>
+            </thead>
+            <tbody>
+              {data.map((item, index) => (
+                <tr key={index}>
+                  <td>{item.name}</td>
+                  <td>{item.post}</td>
+                  <td>{item.number}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+      {/* Events */}
       <h2 className="title">Event Organizers Contact Details</h2>
       <div className="tabs">
         {Object.keys(eventContacts).map((eventType) => (
