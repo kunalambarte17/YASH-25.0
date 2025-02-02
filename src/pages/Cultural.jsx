@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Link } from "react-router-dom";
 import culturalEvents from "../pages/Details.js";  
 import 'swiper/css';
+import event from '../pages/Details';
 import 'swiper/css/navigation';
 import 'swiper/css/effect-coverflow';  
 
@@ -46,7 +47,9 @@ const Cultural = () => {
           >
             {culturalEvents.map((event, index) => (
               <SwiperSlide key={event.id} className={`swiper-slide-${index % 3 === 0 ? 'left' : index % 3 === 1 ? 'center' : 'right'}`}>
+                <Link className="anchor-link" to={`/culturalviewsingle/${event.id}`}>
                 <img className="lg:h-96 md:h-72 h-44 w-full border rounded-xl" src={event.image} alt={`Slide ${index + 1}`} />
+                </Link>
               </SwiperSlide>
             ))}
           </Swiper>
