@@ -75,7 +75,7 @@ function Contact() {
     <div className='Main-contact-box'>
       <Navbar/>
       {/* Commity */}
-      <h2 className="title">Student Council</h2>
+      <h2 className="title">YASH COMMITTE</h2>
       <div className="table-box">
         <div className="table-container ">
           <table className="table">
