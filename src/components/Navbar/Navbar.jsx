@@ -32,35 +32,35 @@ const Navbar = () => {
         />
         <li className="li-text">
           <Link className="anchor-link text-black hover:text-white hover:text-3xl transition-all duration-300 ease-in-out" to={"/"}>
-            <p>
+            <p className="res-p">
               Home
             </p>
           </Link>
         </li>
         <li className= "li-text">
           <Link className="anchor-link text-black hover:text-white hover:text-3xl transition-all duration-300 ease-in-out" to={"/cultural"}>
-            <p>
+            <p className="res-p">
               Cultural
             </p>
           </Link>
         </li>
         <li className= "li-text">
           <Link className="anchor-link text-black hover:text-white hover:text-3xl transition-all duration-300 ease-in-out" to={"/technical"}>
-            <p>
+            <p className="res-p">
               Technical
             </p>
           </Link>
         </li>
         <li className= "li-text">
           <Link className="anchor-link text-black hover:text-white hover:text-3xl transition-all duration-300 ease-in-out" to={"/sports"}>
-            <p>
+            <p className="res-p">
               Sports
             </p>
           </Link>
         </li>
         <li className= "li-text">
           <Link className="anchor-link text-black  hover:text-white hover:text-3xl transition-all duration-300 ease-in-out"  to={"/contact"}>
-            <p>
+            <p className="res-p">
               Contact
             </p>
           </Link>
