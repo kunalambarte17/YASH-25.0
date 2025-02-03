@@ -7,6 +7,8 @@ function Contact() {
   const [activeTab, setActiveTab] = useState("Technical");
 
   const data = [
+    {name:'Prof. Vaibhav Doifode',post:'In Charge SA',number:'9975777941'},
+    {name:'Dr. Supriya Thombre',post:'Asst In Charge SA',number:'9158884767'},
     { name: 'Om Thawkar', post: 'General Secretary', number: '8010295730' },
     { name: 'Jay Kahate', post: 'Secretary - Technical', number: '8855011347' },
     { name: 'Sakshi Thakre', post: 'Secretary - Cultural', number: '9404401737' },

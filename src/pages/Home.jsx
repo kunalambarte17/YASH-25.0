@@ -19,7 +19,7 @@ const Home = () => {
         </div>
       </div>
         <div className="flex justify-center items-center text-center flex-col mt-16 mb-16">
-          <h1 className="text-6xl font-extrabold text-white mb-8">Inaguration</h1>
+          <h1 className="text-6xl font-extrabold text-white mb-8">Inauguration</h1>
           <Timer launchDate="2025-02-13T10:00:00" /> 
         </div>
       <div className="flex justify-center items-start">
