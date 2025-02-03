@@ -102,9 +102,6 @@
     align-items: center;
     justify-content: center;
   }
-  .ycce{
-    margin-left: 10px;
-  }
   .main-div{
     display: flex;
     margin-left: 0;
@@ -112,4 +109,15 @@
     align-items: center;
     text-align: center;
   }
+  .heading-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .ycce{
+    margin-left: 10px;
+    width: 270px;
+  }
 }
+
