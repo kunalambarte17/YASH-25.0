@@ -19,14 +19,6 @@
   margin-left: 12rem;
   /* height: 90vh; */
 }
-.heading-container {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  justify-content: center;
-  text-align: center;
-
-}
 .enigma-p {
   font-size: 3rem;
   color: white;
@@ -97,11 +89,6 @@
   }
 }
 @media (width < 670px){
-  .heading-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
   .main-div{
     display: flex;
     margin-left: 0;
@@ -109,14 +96,14 @@
     align-items: center;
     text-align: center;
   }
-  .heading-container{
+  .heading-conatiner{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
   }
   .ycce{
-    margin-left: 10px;
+    /* margin-left: 10px; */
     width: 270px;
   }
 }
