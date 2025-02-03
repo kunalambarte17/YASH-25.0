@@ -127,6 +127,8 @@
         flex-direction: row;
         gap: 20px;
         color: white;
-
+    }
+    .res-p{
+        color: white;
     }
 }

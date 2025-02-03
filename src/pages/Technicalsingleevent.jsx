@@ -28,7 +28,7 @@ const Technicalsingleevent = () => {
               <img
                 src={event.image} 
                 alt={event.title} 
-                className="w-full h-96 object-contain rounded-lg" 
+                className="w-full object-contain rounded-lg" 
               />
             </div>
 

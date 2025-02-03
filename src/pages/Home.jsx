@@ -23,9 +23,9 @@ const Home = () => {
           <Timer launchDate="2025-02-13T10:00:00" /> 
         </div>
       <div className="flex justify-center items-start">
-        <h1 className="text-6xl text-white font-extrabold ml-8 ">ABOUT</h1>
+        <h1 className="text-6xl text-white font-extrabold ">ABOUT</h1>
       </div>
-      <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-8 m-8 text-white">
+      <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:p-8 m-8 text-white">
         <div className="bg-black bg-opacity-70 rounded-3xl p-8  "><p className="text-3xl font-extrabold ">Celebrating 40 Years of Excellence – Ruby Jubilee</p><p className="text-xl mt-8">This year is very special as YCCE completes 40 years of success in education, innovation, and community service, celebrating its Ruby Jubilee since it was founded in 1984. As the first autonomous engineering college in Vidarbha and a proud holder of NAAC A++ accreditation, YCCE has built a strong reputation for producing talented graduates who are highly valued by top companies in India. This celebration reflects YCCE’s long-lasting dedication to quality education and positive contributions to society.</p></div>
         <div className="bg-black bg-opacity-70 rounded-3xl p-8 "><p className="text-3xl font-extrabold ">YCCE: Where Innovation Meets Excellence</p><p className="text-xl mt-8">Yeshwantrao Chavan College of Engineering (YCCE), Nagpur, is a prestigious institution known for its focus on academic
           excellence and holistic development. With state-of-the-art infrastructure, highly qualified faculty, and a wide range of
