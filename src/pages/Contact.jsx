@@ -251,8 +251,16 @@ function Contact() {
       { event: "Muktswar", name: "Suyog Chichalkar", contact: "+91 70301 36566" },
       { event: "Reel it real", name: "Neha Geete, Charu Girhe", contact: "+91 84460 79131, +91 82379 01889" },
       { event: "Mini Vlog verse", name: "Vedant Bhoyar, Aarohi Dabhadkar", contact: "+91 76201 67417, +91 83799 92605" },
-      { event: "focus fest", name: "Sayali Padmane, Janhavi Pathrabe", contact: "+91 95612 18705, +91 73875 62741" },
+      { event: "Focus Fest", name: "Sayali Padmane, Janhavi Pathrabe", contact: "+91 95612 18705, +91 73875 62741" },
+      { event: "Frame By Frame", name: "Durgesh Jibhkate, Kunal Rode", contact: "+91 83906 33416, +91 90212 43415" },
+      { event: "Bhairavi", name: "Sakshi Thakare", contact: "+91 94044 01737" },
       { event: "Fashioninsta", name: "Chaitanya Garaskar", contact: "+91 80102 86843" },
+      { event: "Jashn-e-Mehfil", name: "Yashodhan Pande", contact: "+91 95290 39522" },
+      { event: "Farzi Mushaira", name: "Jagdish Kachhawah", contact: "+91 86689 69935" },
+      { event: "Flashmob", name: "Ishita Dabrase, Jayesh Bele", contact: "+91 94221 59761, +91 90218 63297" },
+      { event: "Freshers", name: "Isha Chikhale", contact: "+91 82756 49177" },
+      { event: "Megheshree", name: "Aditya Alat", contact: "+91 81778 82942" },
+      { event: "Anifesta", name: "Sanchit Khandare, Vasundhara Shivankar", contact: "+91 99605 99926, +91 99700 59488" },
     ],
     Sports: [
       { event: "Futsal Tournament", name: "Abhir Kawale, Palash Patil", contact: "+91 9373718977, +91 72498 18361," },
@@ -263,6 +271,7 @@ function Contact() {
       { event: "BGMI Tournament", name: "Aksahy Bhongade, Aradhya Chilamwar", contact: "+91 84462 56307, +91 94052 55112" },
       { event: "Long Cricket Tournament", name: "Rajjat Hatwar", contact: "+91 96999 26704" },
       { event: "Carrom Tournament", name: "Vaishnav Borkute, Arjun Kadam", contact: "+91 73978 81233, +91 77690 77699" },
+      { event: "Commando Room", name: "Sohum Weginwar, Yugandhara Jagtap", contact: "+91 95037 27790, +91 93220 35493" },
       { event: "Valorant Tournament ", name: "Himanshu Akhatkar", contact: "77588 43175" },
       { event: "Smash Karts Tournament", name: "Atharva Sapate, Pratik Gondane", contact: "+91 80877 83997, +91 91467 22028" },
       { event: "Tug of War (Girls)", name: "Sakshi Vemuri, Abhinav Tomar", contact: "+91 93221 64023, +91 88994 46769" },
@@ -306,7 +315,7 @@ function Contact() {
       <h2 className="title">FACULTY COMMITTEE</h2>
 <div className="table-box">
   <div className="table-container">
-    <table className="table">
+    <table className="table faculty-table">
       <thead>
         <tr>
           <th>Name</th>
