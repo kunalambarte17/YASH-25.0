@@ -1,25 +1,17 @@
 .cul {
-  position: relative;
+  background-image: url("../assets/bg4.jpeg");
   height: 100%;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  background-image: url("../assets/bg4.jpeg");
+  scroll-behavior: smooth;
 }
 
-.cul::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-
-  background-size: cover;
-  background-position: center;
-
-  filter: blur(3px); /* Apply blur only to the background */
-  z-index: -1; /* Ensure the background stays behind the content */
+@media (max-width: 768px) {
+  .cul {
+    background-image: url("../assets/mobileview.png"); /* Your mobile-specific image */
+    
+  }
 }
 
 .cule {
@@ -102,4 +94,10 @@
 
 .swiper-button-next {
   right: 10px; /* Position the right arrow on the right side */
+}
+@media (max-width: 1024px) {
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none !important;
+  }
 }

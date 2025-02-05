@@ -13,14 +13,14 @@ const Technical = () => {
   return (
     <div className="cul">
       <Navbar />
-      <div className="h-[100vh] flex flex-col items-center  text-white justify-center py-6 px-4">
+      <div className="h-[100vh]  flex flex-col items-center text-white lg:justify-normal lg:mt-2 justify-center lg:px-4 px-1">
         {/* Title */}
-        <h1 className="lg:text-7xl text-5xl font-extrabold text-center mb-8">
+        <h1 className="lg:text-7xl text-5xl font-extrabold text-center ">
           Technical Events
         </h1>
 
         {/* Swiper slider */}
-        <div className="w-full my-8  mx-auto px-10">
+        <div className="w-full my-8  mx-auto  lg:px-10 ">
           <Swiper
             slidesPerView={3}
             spaceBetween={-200}
@@ -49,7 +49,7 @@ const Technical = () => {
               <SwiperSlide key={event.id} className={`swiper-slide-${index % 3 === 0 ? 'left' : index % 3 === 1 ? 'center' : 'right'}`}>
                 
                 <Link className="anchor-link" to={`/Technicalviewsingle/${event.id}`}>
-                <img className="lg:h-96 md:h-72 h-44 w-full border rounded-xl" src={event.image} alt={`Slide ${index + 1}`} />
+                <img className="lg:h-96  w-full border rounded-xl" src={event.image} alt={`Slide ${index + 1}`} />
                 </Link>
               </SwiperSlide>
             ))}
@@ -59,7 +59,7 @@ const Technical = () => {
         {/* View All Button */}
         <div>
           <Link className="anchor-link" to={"/Technicalview"}>
-            <button className="p-4 px-7 text-black rounded-xl font-bold lg:text-2xl text-lg bg-white">
+          <button className="p-2 lg:px-7 px-4 text-black rounded-xl font-bold lg:text-2xl text-lg bg-white">
               VIEW ALL
             </button>
           </Link>     
