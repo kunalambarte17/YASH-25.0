@@ -142,18 +142,53 @@
       padding: 0rem 4rem;
     }
     .contact-table th {
-      font-size: 1.5rem;
+      font-size: 1.2rem;
     }
     .contact-table td {
-      font-size: 1rem;
+      font-size: .7rem;
     }
     .title{
-      font-size: 3rem;
-    }
+      font-size: 2rem;
+      padding: 5px;
+    
   }
+}
   @media (width < 430px) {
+    .table th{
+      font-size: 1.5rem;
+    }
+    .table td{
+      font-size: .7rem;
+    }
     .table-box{
       padding: 0rem 1rem;
+    }
+  }
+
+
+
+
+/* faculty contact */
+  @media (width < 550px) {
+    .faculty-table th {
+      font-size: 1.5rem;
+    }
+    .faculty-table td {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (width < 430px) {
+    .faculty-table {
+      padding: 0rem 1rem;
+    }
+  }
+  @media (width < 350px) {
+    .faculty-table th {
+      font-size: 1rem;
+    }
+    .faculty-table td {
+      font-size: .7rem;
     }
   }
   
