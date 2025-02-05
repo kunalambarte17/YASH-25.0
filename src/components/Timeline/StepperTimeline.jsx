@@ -1,6 +1,16 @@
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 const timelineContent = [
+    //Sports
+    {
+      iconurl: 'https://media.giphy.com/channel_assets/sports/P658KMA9mwy4/200h.gif',
+      date: '7th and 8th Feb 2025',
+      event1: 'Tug of War(BOYS)',
+      event2: 'Vollyball',
+      event3: 'Box Cricket (BOYS/GIRLS)',
+      event4: '',
+    },
+    
   // Cultural
   {
     iconurl: 'https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ21yb3dza2Q2MjhlN2F6ZXIwdjVxZGN4bmNudzYydGdyNWd4dWQ5aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9LvxxqmsgGdBrKn0ax/giphy.gif',
@@ -17,7 +27,15 @@ const timelineContent = [
     event2: 'Visual Vibes',
     event3: '',
   },
-  
+  //Sports
+  {
+    iconurl: 'https://media.giphy.com/channel_assets/sports/P658KMA9mwy4/200h.gif',
+    date: '9th and 10th Feb 2025',
+    event1: 'FIFA (mobile)',
+    event2: 'VALORANT',
+    event3: 'BGMI and Free Fire',
+    event4: 'Smash Karts',
+  },  
   // Cultural
   {
     iconurl: 'https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ21yb3dza2Q2MjhlN2F6ZXIwdjVxZGN4bmNudzYydGdyNWd4dWQ5aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9LvxxqmsgGdBrKn0ax/giphy.gif',
@@ -33,6 +51,14 @@ const timelineContent = [
     event1: 'Debate Competition',
     event2: 'Turning Tussle',
     event3: '',
+  },
+  //Sports
+  {
+    iconurl: 'https://media.giphy.com/channel_assets/sports/P658KMA9mwy4/200h.gif',
+    date: '10th Feb 2025',
+    event1: 'Carrom',
+    event2: 'Chess',
+    event3: 'Box Cricket (BOYS)',
   },
   // Cultural
   {
@@ -58,6 +84,12 @@ const timelineContent = [
     event2: 'Open mic (12-3pm)',
     event3: 'Bandocylpse (3-6pm)',
   },
+  //Sports
+  {
+    iconurl: 'https://media.giphy.com/channel_assets/sports/P658KMA9mwy4/200h.gif',
+    date: '12th and 13th Feb 2025',
+    event1: 'FIFA (Console)',
+  },
   //Technical
   {
     iconurl: 'https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzA0YWJpbDlhdml0ejc1b3p0MjBrcG4yN2YzMDhlbHBnbjVwNW0zcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZbOJHSRcz1Gn95PXpO/giphy.gif',
@@ -80,15 +112,15 @@ const timelineContent = [
     date: '13 Feb 2025',
     event1: 'Robo Soccer',
     event2: 'IEEE Workshop',
-    event3: '',
+    event3: 'Lazer Gun',
+    event4: 'Science Exhibition',
   },
-  //Technical
+  
+  //Sports
   {
-    iconurl: 'https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzA0YWJpbDlhdml0ejc1b3p0MjBrcG4yN2YzMDhlbHBnbjVwNW0zcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZbOJHSRcz1Gn95PXpO/giphy.gif',
-    date: '13 Feb 2025',
-    event1: 'Lazer Gun',
-    event2: 'Science Exhibition',
-    event3: '',
+    iconurl: 'https://media.giphy.com/channel_assets/sports/P658KMA9mwy4/200h.gif',
+    date: '14th Feb 2025',
+    event1: 'Commando Room',
   },
   // Cultural
   {
@@ -104,15 +136,8 @@ const timelineContent = [
     date: '14 Feb 2025',
     event1: 'Blueprint to Bridge',
     event2: 'Buzz Wire',
-    event3: '',
-  },
-  //Technical
-  {
-    iconurl: 'https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzA0YWJpbDlhdml0ejc1b3p0MjBrcG4yN2YzMDhlbHBnbjVwNW0zcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZbOJHSRcz1Gn95PXpO/giphy.gif',
-    date: '14 Feb 2025',
-    event1: 'NoCode AI Innovators',
-    event2: 'Code & Canvas',
-    event3: '',
+    event3: 'NoCode AI Innovators',
+    event4: 'Code & Canvas',
   },
   // Cultural
   {
@@ -188,6 +213,9 @@ const StepperTimeline = () => {
                 </h4>
                 <h4 className="text-2xl md:text-base lg:text-2xl text-white mr-2">
                   {content.event3}
+                </h4>
+                <h4 className="text-2xl md:text-base lg:text-2xl text-white mr-2">
+                  {content.event4}
                 </h4>
               </div>
             </div>
