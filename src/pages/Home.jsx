@@ -9,7 +9,7 @@ import Timer from "../components/Timer/Timer";
 
 const Home = () => {
   return (
-    <div className="home" id="home">
+    <div className="home h-[100vh]" id="home">
       <Navbar />
       <div className="main-div">
         <div className="heading-conatiner">
