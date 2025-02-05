@@ -41,14 +41,16 @@ const Footer = () => {
             <i className="fa-regular fa-envelope foot-icon"></i>
           </a>
         </div>
-        <p className="text-lg flex text-white mt-4 mb-8">
+        <div className="">
+
+        <p className="text-lg flex text-white mt-2 lg:bg-transparent p-2 bg-black ">
           Made by &nbsp;{" "}
           <a
             href="https://portfolio-laukik.vercel.app/"
             target="blank"
             className=" text-xl font-extrabold hover:underline"
           >
-            Laukik
+            Laukik (Cse-Aiml)
           </a>
           &nbsp;
           <a
@@ -56,7 +58,7 @@ const Footer = () => {
             target="blank"
             className=" text-xl font-extrabold hover:underline"
           >
-            Kunal .A.
+            Kunal .A. (IT)
           </a>
           &nbsp;
           <a
@@ -64,7 +66,7 @@ const Footer = () => {
             target="blank"
             className=" text-xl font-extrabold hover:underline"
           >
-            Chitraksh
+            Chitraksh (Cse)
           </a>
           &nbsp;{" "}
           <a
@@ -72,9 +74,10 @@ const Footer = () => {
             target="blank"
             className=" text-xl font-extrabold hover:underline"
           >
-            & Rayyan
+            & Rayyan (Cse-Aiml)
           </a>
         </p>
+        </div>
       </div>
     </footer>
   );

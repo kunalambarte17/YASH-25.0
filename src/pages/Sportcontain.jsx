@@ -17,7 +17,7 @@ const Sportcontain = () => {
             <img
               src={card.image}  // Display the image
               alt={`Card ${card.id}`}  // Use card id for alt text
-              className="w-full h-80 object-contain rounded-lg border cursor-pointer " // Make the image fill the card and maintain aspect ratio
+              className="w-full lg:h-80 object-contain rounded-lg border cursor-pointer " // Make the image fill the card and maintain aspect ratio
             />
            
           </Link>    
