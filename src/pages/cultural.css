@@ -1,11 +1,9 @@
 body{
   background-image: url("../assets/bg4.jpeg");
-  height: 100%;
   background-size: cover;
   background-position: center;
   background-attachment: local;
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 
 
@@ -13,7 +11,6 @@ body{
   body
   {
     background-image: url("../assets/mobileview.png");
-    height: 100%;
   background-size: cover;
   background-position: center;
   background-attachment: local;
