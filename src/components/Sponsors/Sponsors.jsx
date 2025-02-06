@@ -6,6 +6,8 @@ import Infinity1 from "../../assets/sponsors/infinityturf.png"
 import kcoverseas from "../../assets/sponsors/kcoverseas.jpg"
 import PoolSnooker from "../../assets/sponsors/PoolSnooker.png"
 import trusha from "../../assets/sponsors/trusha.png"
+import attitude from "../../assets/sponsors/attitideswesome.png"
+import fly from "../../assets/sponsors/flyaviation.png"
 
 const Sponsors = () => {
     const sponsorData = [
@@ -41,6 +43,16 @@ const Sponsors = () => {
         },
         {
             src: trusha,
+            alt: "TIMES",
+            width: "250"
+        },
+        {
+            src: attitude,
+            alt: "TIMES",
+            width: "250"
+        },
+        {
+            src: fly,
             alt: "TIMES",
             width: "250"
         },

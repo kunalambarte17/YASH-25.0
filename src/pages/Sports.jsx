@@ -8,10 +8,11 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/effect-coverflow';  
 import event from '../pages/SportDetails';
+import Footer from "../components/Footer/Footer.jsx";
 
 const Sports = () => {
   return (
-    <div className="cul">
+    <div className="">
       <Navbar />
       <div className="h-[100vh]  flex flex-col items-center text-white lg:justify-normal lg:mt-2 justify-center lg:px-4 px-1">
         {/* Title */}
@@ -64,6 +65,7 @@ const Sports = () => {
           </Link>     
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };
