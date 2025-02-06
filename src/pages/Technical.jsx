@@ -8,10 +8,11 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/effect-coverflow';  
 import event from '../pages/TechnicalDetails';
+import Footer from "../components/Footer/Footer.jsx";
 
 const Technical = () => {
   return (
-    <div className="cul">
+    <div className="">
       <Navbar />
       <div className="h-[100vh]  flex flex-col items-center text-white lg:justify-normal lg:mt-2 justify-center lg:px-4 px-1">
         {/* Title */}
@@ -65,6 +66,7 @@ const Technical = () => {
           </Link>     
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };

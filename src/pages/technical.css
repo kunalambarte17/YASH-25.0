@@ -1,25 +1,23 @@
-.cul {
-  position: relative;
+body{
+  background-image: url("../assets/bg4.jpeg");
   height: 100%;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  background-image: url("../assets/bg4.jpeg");
+  scroll-behavior: smooth;
 }
 
-.cul::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
 
+@media (max-width: 768px) {
+  body
+  {
+    background-image: url("../assets/mobileview.png");
+    height: 100%;
   background-size: cover;
   background-position: center;
-
-  filter: blur(3px); /* Apply blur only to the background */
-  z-index: -1; /* Ensure the background stays behind the content */
+  background-attachment: fixed;
+  scroll-behavior: smooth;
+  }
 }
 
 .cule {
