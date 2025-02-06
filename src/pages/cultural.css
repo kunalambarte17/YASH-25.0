@@ -3,7 +3,7 @@ body{
   height: 100%;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
+  background-attachment: local;
   scroll-behavior: smooth;
 }
 
@@ -15,7 +15,7 @@ body{
     height: 100%;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
+  background-attachment: local;
   scroll-behavior: smooth;
   }
 }
