@@ -14,7 +14,7 @@ const Technicalsingleevent = () => {
   }
 
   return (
-    <div className="cule">
+    <div className="">
       <Navbar />
       <div className="h-[100vh] flex flex-col items-center text-white  py-12 px-4">
         <div className="max-w-screen-lg w-full bg-gray-800 bg-opacity-50 backdrop-blur-lg p-6 rounded-lg shadow-lg">
