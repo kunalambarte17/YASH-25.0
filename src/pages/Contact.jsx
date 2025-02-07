@@ -352,7 +352,7 @@ function Contact() {
           </button>
         ))}
       </div>
-      <div className="table-box">
+      <div className="table-box lower-most-table">
         <table className="contact-table">
           <thead>
             <tr>
