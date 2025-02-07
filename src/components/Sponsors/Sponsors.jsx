@@ -8,6 +8,8 @@ import PoolSnooker from "../../assets/sponsors/PoolSnooker.png"
 import trusha from "../../assets/sponsors/trusha.png"
 import attitude from "../../assets/sponsors/attitideswesome.png"
 import fly from "../../assets/sponsors/flyaviation.png"
+import water from "../../assets/sponsors/water.jpg"
+import cojag from "../../assets/sponsors/cojag.jpg"
 
 const Sponsors = () => {
     const sponsorData = [
@@ -55,6 +57,16 @@ const Sponsors = () => {
             src: fly,
             alt: "TIMES",
             width: "250"
+        },
+        {
+            src: water,
+            alt: "TIMES",
+            width: "180"
+        },
+        {
+            src: cojag,
+            alt: "TIMES",
+            width: "180"
         },
     ];
 

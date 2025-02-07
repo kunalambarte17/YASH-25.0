@@ -9,9 +9,11 @@ import Timer from "../components/Timer/Timer";
 
 const Home = () => {
   return (
-    <div className="home h-[100vh]" id="home">
+    <div className=" h-[100vh]" id="home">
       <Navbar />
-      <div className="main-div">
+        <h1 className="mt-10 text-center text-white font-extrabold lg:text-5xl text-3xl ">RUBY JUBILEE CELEBRATION</h1>
+        <h1 className="text-center  text-white font-bold lg:text-4xl  text-2xl">COMPLETING 40 YEARS</h1>
+      <div className="main-div mt-12">
         <div className="heading-conatiner">
             {/* <p className="enigma-p">YCCE Presents</p> */}
             <img src={logo} alt="" height={50} width={500} className="ycce"/>

@@ -12,9 +12,10 @@ import Footer from "../components/Footer/Footer.jsx";
 
 const Technical = () => {
   return (
-    <div className="">
+    <>
+    <div className="h-[100vh]">
       <Navbar />
-      <div className="h-[100vh]  flex flex-col items-center text-white lg:justify-normal lg:mt-2 justify-center lg:px-4 px-1">
+      <div className="mt-28  flex flex-col items-center text-white lg:justify-normal lg:mt-2 justify-center lg:px-4 px-1">
         {/* Title */}
         <h1 className="lg:text-7xl text-5xl font-extrabold text-center ">
           Technical Events
@@ -66,8 +67,9 @@ const Technical = () => {
           </Link>     
         </div>
       </div>
-      <Footer/>
     </div>
+      <Footer/>
+    </>
   );
 };
 
