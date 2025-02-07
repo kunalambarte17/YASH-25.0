@@ -1,7 +1,4 @@
-
 .Main-contact-box{
-    background-image: url(../assets/bg4.jpeg);
-    background-size: cover;
     z-index: -100;
     background-attachment: fixed;
 }
@@ -118,6 +115,43 @@
   .table tbody tr:last-child td:last-child {
     border-bottom-right-radius: 15px;
   }
+
+/* Teachers */
+  .faculty-table-container {
+    width: 100%;
+    overflow-x: auto;
+  }
+  /* .faculty-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 400px;
+  }  */
+  .faculty-table th,
+  .faculty-table td {
+    padding: 12px;
+    text-align: center;
+    /* border: 1px solid #ddd; */
+  }
+  .faculty-table th {
+    background-color: #000000d9;
+    color: white;
+    font-size: 2rem;
+  }
+  .faculty-table td {
+    background-color: #0000009e;
+    color: white;
+    font-size: 1.2rem;
+  }
+  
+
+  
+  @media screen and (max-width: 600px) {
+    .faculty-table th, .faculty-table td {
+      padding: 8px;
+      font-size: 14px;
+    }
+  }
+  
   
 
   @media (width < 1350px) {
@@ -145,7 +179,7 @@
       padding: 0rem 4rem;
     }
     .contact-table th {
-      font-size: 1.2rem;
+      font-size: 1.5rem;
     }
     .contact-table td {
       font-size: .7rem;
