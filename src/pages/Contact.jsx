@@ -22,21 +22,9 @@ function Contact() {
     { name: 'Geetkumar Rathod', post: 'Disaster Management', number: '+91 98815 86310' },
   ];
    const faculty=[
-    {
-        name: "Dr. U. P. Waghe",
-        post: "Principal",
-        namepost: "Chairman"
-    },
-    {
-        name: "Dr. S. V. Prayagi",
-        post: "Registrar",
-        namepost: "Convener"
-    },
-    {
-        name: "Dr. A. P. Munshi",
-        post: "Electrical Engineering",
-        namepost: "Advisor"
-    },
+    {name: "Dr. U. P. Waghe", post: "Principal", namepost: "Chairman"},
+    {name: "Dr. S. V. Prayagi", post: "Registrar", namepost: "Convener"},
+    {name: "Dr. A. P. Munshi", post: "Electrical Engineering", namepost: "Advisor"},
     {
         name: "Prof. V. R. Doifode",
         post: "In-charge SA",
@@ -313,28 +301,28 @@ function Contact() {
       {/* faculty */}
 
       <h2 className="title">FACULTY COMMITTEE</h2>
-<div className="table-box">
-  <div className="table-container">
-    <table className="table faculty-table">
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Post</th>
-          <th>Committee Role</th>
-        </tr>
-      </thead>
-      <tbody>
-        {faculty.map((member, index) => (
-          <tr key={index}>
-            <td>{member.name}</td>
-            <td>{member.post}</td>
-            <td>{member.namepost}</td>
-          </tr>
-        ))}
-      </tbody>
-    </table>
-  </div>
-</div>
+      <div className="table-box">
+        <div className="faculty-table-container">
+          <table className="faculty-table table">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Post</th>
+                <th>Role</th>
+              </tr>
+            </thead>
+            <tbody>
+              {faculty.map((member, index) => (
+                <tr key={index}>
+                  <td>{member.name}</td>
+                  <td>{member.post}</td>
+                  <td>{member.namepost}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
 
       {/* faciulty end */}
 
