@@ -5,4 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   assetsInclude: ["**/*.png", "**/*.PNG"],
+  server: {
+    historyApiFallback: true, // Redirects unknown routes to index.html
+  },
 })
