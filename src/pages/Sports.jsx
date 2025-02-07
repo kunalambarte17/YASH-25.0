@@ -1,5 +1,5 @@
 import "./sport.css";
-import { Navigation, A11y, EffectCoverflow } from 'swiper/modules';  
+import { Navigation, A11y, EffectCoverflow ,Autoplay} from 'swiper/modules';  
 import Navbar from "../components/Navbar/Navbar";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Link } from "react-router-dom";
@@ -38,12 +38,16 @@ const Sports = () => {
               modifier: 2,
               slideShadows: true,
             }}
+            autoplay={{
+              delay: 2000, // 2 seconds delay
+              disableOnInteraction: false,
+            }}
             breakpoints={{
               0: { slidesPerView: 1 },
               1000: { slidesPerView: 2 },
               1024: { slidesPerView: 3 },
             }}
-            modules={[Navigation, A11y, EffectCoverflow]}
+            modules={[Navigation, A11y, EffectCoverflow ,Autoplay]}
             className="swiper swiper_container h-full"
             style={{ overflow: 'hidden' }}
           >
