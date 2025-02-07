@@ -41,9 +41,7 @@ const Footer = () => {
             <i className="fa-regular fa-envelope foot-icon"></i>
           </a>
         </div>
-        <div className="">
-
-        <p className="text-lg flex text-white mt-2 lg:bg-transparent p-2 bg-black ">
+        <p className="made-by">
           Made by &nbsp;{" "}
           <a
             href="https://portfolio-laukik.vercel.app/"
@@ -77,7 +75,6 @@ const Footer = () => {
             & Rayyan (Cse-Aiml)
           </a>
         </p>
-        </div>
       </div>
     </footer>
   );
