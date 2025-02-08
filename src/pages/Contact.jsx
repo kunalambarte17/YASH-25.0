@@ -11,6 +11,7 @@ function Contact() {
     {name:'Dr. Supriya Thombre',post:'Faculty Co-ordinator Technical & Cultural Activities',number:'+91 91588 84767'},
     {name:'Prof. Swati Nitnaware',post:'Faculty Co-ordinator Students Club Activities',number:'+91 98602 08475'},
     {name:'Prof. Swati Mohod',post:'Faculty Co-ordinator NSS Club Activities',number:'+91 83901 80836'},
+    {name:'Om Thawkar',post:'General Secretary - Gathering',number:'+91 80102 95730'},
     { name: 'Jay Kahate', post: 'Secretary - Technical', number: '+91 88550 11347' },
     { name: 'Sakshi Thakre', post: 'Secretary - Cultural', number: '+91 94044 01737' },
     { name: 'Jayesh Giri', post: 'Secretary - Sports', number: '+91 96896 10236' },
