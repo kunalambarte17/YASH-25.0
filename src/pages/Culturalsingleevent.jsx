@@ -19,7 +19,8 @@ const Culturalsingleevent = () => {
     "Bhairavi || 15TH Feb",
     "Farzi Mushaira || 13TH Feb",
     "Jashn E Mehfil || 13Th Feb",
-    "Flash Mob 2k25 || 10TH Feb"
+    "Flash Mob 2k25 || 10TH Feb",
+    "Marathi Drama || 13TH Feb"
   ];
 
   return (
