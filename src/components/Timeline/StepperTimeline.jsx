@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 const timelineContent = [
@@ -153,9 +154,23 @@ const timelineContent = [
 ];
 
 const StepperTimeline = () => {
+
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkScreenSize = () => {
+      setIsMobile(window.innerWidth < 768); // Adjust breakpoint if needed
+    };
+
+    checkScreenSize();
+    window.addEventListener("resize", checkScreenSize);
+
+    return () => window.removeEventListener("resize", checkScreenSize);
+  }, []);
+
   return (
     <div id="schedule" className='w-[90%] '>
-      <VerticalTimeline>
+      <VerticalTimeline animate={!isMobile}>
         {timelineContent.map((content, index) => (
           <VerticalTimelineElement
             key={index}
